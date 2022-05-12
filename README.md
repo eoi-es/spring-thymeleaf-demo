@@ -18,13 +18,23 @@ Open http://localhost:8080/h2-console
 * username: demo
 * password: (empty)
 
-# Users
+## Users
 
 * admin:123
 * emingora:123
 * nonactiveuser:123 (this user will not work just because active field is disabled)
 
-# Roles
+## Roles
 
 * `ROLE_ADMIN` (for admin user)
 * `ROLE_USER` (for emingora user)
+
+# TODO
+
+* Unitary testing
+* Integration testing
+* Edit Profile section
+* Change password screen
+* Recover password screen
+* Infinite scroll example
+
